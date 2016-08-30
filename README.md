@@ -1,7 +1,9 @@
 # Minimum together Validation in django rest framework
 
+django rest framework validation
+
 ### example
-'''sh
+```sh
 class SomeSerializer(serializers.ModelSerializer):
     class Meta:
         validators = [
@@ -10,4 +12,4 @@ class SomeSerializer(serializers.ModelSerializer):
                 min=1000 # minimum amount
             )
         ]
-'''
+```
